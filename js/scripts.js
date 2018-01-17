@@ -7,9 +7,9 @@ $(document).ready(function() {
     var arrayInput = reverseInput.join("");
 
     if (phraseInput === arrayInput) {
-      alert("yes!");
+      $(".result").text("Yes!");
     } else {
-      alert("no!");
+      $(".result").text("Nope, try again!");
     }
 
   });
